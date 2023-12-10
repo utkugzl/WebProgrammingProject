@@ -1,0 +1,142 @@
+﻿@model WebProgramlamaProje.Models.Flight
+
+@{
+    ViewData["Title"] = "Delete";
+    //Layout = "~/Views/Shared/_AdminPageLayout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Flight</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightFrom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightFrom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightTo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightTo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Plane)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Plane.PlaneName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PlaneSeat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PlaneSeat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightTicketPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightTicketPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightPlaneType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightPlaneType)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="FlightID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> 
+    </form>
+    <br />
+    <div class="action-buttons">
+        <a href="@Url.Action("Index", "Flights")">Uçuş Listesi</a>
+    </div>
+    <div class="action-buttons">
+        <a href="@Url.Action("Index", "Admin")" class="action-buttons" style="background-color:black ; color:red">Dashboard'a Dön</a>
+    </div>
+</div>
+
+
+<style>
+    /* Delete Container */
+    .delete-container {
+        margin: 20px; /* Dilerseniz boşluğu artırabilir veya azaltabilirsiniz */
+    }
+
+    /* Delete Confirmation Message */
+    h3 {
+        color: #dc3545;
+    }
+
+    /* Details List */
+    .row {
+        margin-bottom: 15px;
+    }
+
+    .col-sm-2 {
+        font-weight: bold;
+    }
+
+    .col-sm-10 {
+        margin-bottom: 10px;
+    }
+
+    /* Delete Form */
+    .btn-danger {
+        background-color: #dc3545;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn-danger:hover {
+            background-color: #bb2c3b;
+        }
+
+    /* Back to List Link */
+    .back-to-list-link {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .back-to-list-link:hover {
+            text-decoration: underline;
+        }
+
+    .action-buttons a {
+        display: inline-block;
+        padding: 8px 12px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-decoration: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+        .action-buttons a:hover {
+            background-color: #0056b3;
+        }
+</style>

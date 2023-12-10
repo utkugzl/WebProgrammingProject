@@ -1,0 +1,123 @@
+﻿@model WebProgramlamaProje.Models.Flight
+
+@{
+    ViewData["Title"] = "Details";
+    //Layout = "~/Views/Shared/_AdminPageLayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Flight</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightFrom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightFrom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightTo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightTo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Plane)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Plane.PlaneName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PlaneSeat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PlaneSeat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightTicketPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightTicketPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightPlaneType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightPlaneType)
+        </dd>
+    </dl>
+</div>
+<div class="action-buttons">
+    <a style="background-color: green" asp-action="Edit" asp-route-id="@Model?.FlightID">Edit</a> 
+</div>
+<br />
+<div class="action-buttons">
+    <a href="@Url.Action("Index", "Flights")">Uçuş Listesi</a>
+</div>
+<div class="action-buttons">
+    <a href="@Url.Action("Index", "Admin")" class="action-buttons" style="background-color:black ; color:red">Dashboard'a Dön</a>
+</div>
+
+<style>
+    .row {
+        margin: 20px; /* Dilerseniz boşluğu artırabilir veya azaltabilirsiniz */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    /* Ana Renkler */
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    /* Action Butonları */
+    .action-buttons a {
+        display: inline-block;
+        padding: 8px 12px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-decoration: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+        .action-buttons a:hover {
+            background-color: #0056b3;
+        }
+</style>

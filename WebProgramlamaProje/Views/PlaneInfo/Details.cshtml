@@ -1,0 +1,94 @@
+﻿@model WebProgramlamaProje.Models.PlaneInfo
+
+@{
+    ViewData["Title"] = "Details";
+    //Layout = "~/Views/Shared/_AdminPageLayout.cshtml";
+}
+
+<h1>Uçak Detayları</h1>
+
+<div>
+    <h4>PlaneInfo</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PlaneName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PlaneName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SeatCapacity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SeatCapacity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+</div>
+<div class="action-buttons">
+    <a style="background-color: green" asp-action="Edit" asp-route-id="@Model?.PlaneID">Düzenle</a>
+</div>
+<br />
+<div class="action-buttons">
+    <a href="@Url.Action("Index", "PlaneInfo")">Uçak Listesi</a>
+</div>
+<div class="action-buttons">
+    <a href="@Url.Action("Index", "Admin")" class="action-buttons" style="background-color:black ; color:red">Dashboard'a Dön</a>
+</div>
+
+
+<style>
+    .row {
+        margin: 20px; /* Dilerseniz boşluğu artırabilir veya azaltabilirsiniz */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    /* Ana Renkler */
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    /* Action Butonları */
+    .action-buttons a {
+        display: inline-block;
+        padding: 8px 12px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-decoration: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+        .action-buttons a:hover {
+            background-color: #0056b3;
+        }
+</style>
