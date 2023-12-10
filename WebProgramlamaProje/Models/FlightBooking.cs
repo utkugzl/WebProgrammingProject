@@ -37,9 +37,9 @@ namespace WebProgramlamaProje.Models
         [StringLength(20)]
         public string CustomerTC { get; set; }
 
-        public int ResID { get; set; }
+        public int FlightID { get; set; }
 
-        //public virtual TicketReserve TicketReserve_tbls { get; set; }
+        public virtual Flight? Flight { get; set; }
 
     }
 }

@@ -12,13 +12,13 @@
     <link rel="stylesheet" type="text/css" href="GDC-AboutCSS.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Paytone+One" rel="stylesheet">
 
-    <link href="~/css/gdc-aboutcss.css" rel="stylesheet" />
+    <link href="~/css/aboutpage.css" rel="stylesheet" />
+    
 </head>
 
 
 body>
 
-    <!--NavBar-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -42,103 +42,35 @@ body>
             </div>
         </div>
     </nav>
-    <!--NavBar End-->
-    <!--SingUp Modal-->
-    <div id="signup" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <!--SingUp Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">SignUp</h4>
-                </div>
-                <div class="modal-body">
-                    <label for="username">Username:</label>
-                    <input type="text" name="username" placeholder="Username" id="username">
-                    <br>
-                    <label for="email">Email ID:</label>
-                    <input type="email" name="emailid" placeholder="Email Id" id="email">
-                    <br>
-                    <label for="pass">Password:</label>
-                    <input type="password" name="password" id="pass">
-                    <br>
-                    <label for="confpass">Confirm Password:</label>
-                    <input type="password" name="confpassword" id="confpass">
-                    <br>
-                    <input type="Submit" name="submit">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-            <!--SignUp Modal content End-->
-        </div>
-    </div>
-    <!--SignUp Modal End-->
-    <!--Login Modal-->
-    <div id="login" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <!--Login Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Login</h4>
-                </div>
-                <div class="modal-body">
-                    <label for="username">Username:</label>
-                    <input type="text" name="username" placeholder="Username" id="username">
-                    <br>
-                    <label for="pass">Password:</label>
-                    <input type="password" name="password" id="pass">
-                    <br>
-                    <input type="Submit" name="submit">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-            <!--Login Modal content End-->
-        </div>
-    </div>
-    <!--Login Modal End-->
     <div>
         @RenderBody();
     </div>
 
-    <h1>About</h1>
-    <div class="container" id="cell">
-        <p>Welcome aboard GDC Airways, India's premier Domestic airline which provides you with one of the finest experiences across the skies. Our high standards of service and reliability, efficient operations and focus on innovation has enabled us become one of India's favourite domestic airline.</p>
-        <p>At GDC Airways, we take a holistic approach to corporate responsibility alongside our efforts to be India's best airline.  </p>
-        <br>
-        <p>All of our efforts are focused around adding value: to our people, our communities and our Country. Our agenda is coordinated at the GDC Aviation Group level, to ensure that we have a cohesive programme of initiatives that covers all aspects of our business and operations.</p>
-        <br>
-        <p>All initiatives are conducted within GDC’s ‘Together’ framework.</p>
-        <br>
-        <p>
-            Growing together<br>
-            Support for the India Make, in India vision.
-        </p>
-        <br>
-        <p>
-            Greener together<br>
-            Commitment to minimise our environmental impact.
-        </p>
-        <br>
-        <p>
-            Working together<br>
-            The development and well-being of our diverse employees.
-        </p>
-        <br>
-        <p>
-            Giving together<br>
-            Contributions to charities and humanitarian relief.
-        </p>
-        <br>
-        <p>
-            Our Responsibility<br>
-            More details about the ‘Together’ framework and initiatives are available in regular reports, published since 2010.
-        </p>
-    </div>
+<h1>Hakkımızda</h1>
+<div class="container" id="cell">
+    <p>SAU Airways'a hoş geldiniz, Türkiye'nin öncü iç hat havayolu olan SAU Airways, size gökyüzündeki en güzel deneyimlerden birini sunar. Yüksek hizmet ve güvenilirlik standartlarımız, etkili operasyonlarımız ve yenilik odaklı yaklaşımımız, bizi Türkiye'nin en sevilen iç hat havayollarından biri haline getirmiştir.</p>
+    <p>SAU Airways olarak, kurumsal sorumluluk konusunda Türkiye'nin en iyi havayolu olma çabalarımızın yanı sıra bütünlük yaklaşımını benimsemekteyiz.</p>
+    <p>Tüm çabalarımız, değer katma odaklıdır: insanlarımıza, topluluklarımıza ve ülkemize. Ajandamız, iş ve operasyonlarımızın tüm yönlerini kapsayan uyumlu bir girişimler programına sahip olmamızı sağlamak amacıyla SAU Aviation Group seviyesinde koordine edilmektedir.</p>
+    <p>Tüm girişimlerimiz, SAU’nun 'Birlikte' çerçevesi içinde gerçekleştirilmektedir.</p>
+    <br>
+    <p>
+        <h3>Birlikte Büyüme</h3>
+        Türkiye'de üretim yapma vizyonunu destekleme.
+    </p>
+    <p>
+        <h3>Birlikte Daha Yeşil</h3>
+        Çevresel etkimizi en aza indirme taahhüdü.
+    </p>
+    <p>
+        <h3>Birlikte Çalışma</h3>
+        Çeşitli çalışanlarımızın gelişimi ve refahı.
+    </p>
+    <p>
+        <h3>Sorumluluğumuz</h3>
+        'Birlikte' çerçevesi ve girişimler hakkında daha fazla detay, 2010'dan bu yana düzenli olarak yayımlanan raporlarda bulunmaktadır.
+    </p>
+</div>
+
 /body>
 
 </html>

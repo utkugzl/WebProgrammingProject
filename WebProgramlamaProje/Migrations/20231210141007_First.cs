@@ -26,25 +26,6 @@ namespace WebProgramlamaProje.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "FlightBooking",
-                columns: table => new
-                {
-                    BookingID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CustomerName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    CustomerAddress = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    CustomerEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CustomerSeats = table.Column<int>(type: "int", nullable: false),
-                    CustomerPhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CustomerTC = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    ResID = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_FlightBooking", x => x.BookingID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Passenger",
                 columns: table => new
                 {
@@ -105,6 +86,36 @@ namespace WebProgramlamaProje.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "FlightBooking",
+                columns: table => new
+                {
+                    BookingID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CustomerName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    CustomerAddress = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    CustomerEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerSeats = table.Column<int>(type: "int", nullable: false),
+                    CustomerPhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerTC = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    FlightID = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_FlightBooking", x => x.BookingID);
+                    table.ForeignKey(
+                        name: "FK_FlightBooking_Flights_FlightID",
+                        column: x => x.FlightID,
+                        principalTable: "Flights",
+                        principalColumn: "FlightID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_FlightBooking_FlightID",
+                table: "FlightBooking",
+                column: "FlightID");
+
             migrationBuilder.CreateIndex(
                 name: "IX_Flights_PlaneID",
                 table: "Flights",
@@ -121,10 +132,10 @@ namespace WebProgramlamaProje.Migrations
                 name: "FlightBooking");
 
             migrationBuilder.DropTable(
-                name: "Flights");
+                name: "Passenger");
 
             migrationBuilder.DropTable(
-                name: "Passenger");
+                name: "Flights");
 
             migrationBuilder.DropTable(
                 name: "PlaneInfos");

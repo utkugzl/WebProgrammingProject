@@ -16,7 +16,5 @@ namespace WebProgramlamaProje.Models
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=PlaneSystem;Trusted_Connection=True;");
         }
-
-        
     }
 }

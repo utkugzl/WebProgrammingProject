@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Paytone+One" rel="stylesheet">
 
-    <link href="~/css/gdc-homeconncssn.css" rel="stylesheet" />
-    <link href="~/css/gdc-homecss.css" rel="stylesheet" />
-    <link href="~/css/gdc-homecssnew.css" rel="stylesheet" />
+
+    <link href="~/css/homepage.css" rel="stylesheet" />
+    <link href="~/css/home3.css" rel="stylesheet" />
+    <link href="~/css/home2.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -35,16 +36,18 @@
                     <li><a href="@Url.Action("Index", "About")"><strong>Hakkımızda</strong></a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" data-toggle="modal" data-target="#signup"><strong>Kayıt Ol </strong><i class="fas fa-user-plus"></i></a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#login"><strong>Giriş Yap </strong><i class="fas fa-user"></i></a></li>
+                    <li><a href="@Url.Action("Create", "Register")"><strong>Kayıt Ol </strong><i class="fas fa-user-plus"></i></a></li>
+                    <li><a href="@Url.Action("LogIn", "Register")"><strong>Giriş Yap </strong><i class="fas fa-user"></i></a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--NavBar End-->
+    <div>
+            @RenderBody()
+    </div>
 
-
-    <!--Heading/Moto-->
+  @*   <!--Heading/Moto-->
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -127,11 +130,11 @@
         </div>
         <!--Tab Contents End-->
     </div>
-
+ *@
 
     <!--Tabs End-->
     <!--SingUp Modal-->
-    <div id="signup" class="modal fade" role="dialog">
+    @* <div id="signup" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!--SignUp Modal content-->
             <div class="modal-content">
@@ -195,11 +198,8 @@
             <!--Login Modal Content End-->
         </div>
     </div>
-
-    <div>
-        @RenderBody()
-    </div>
+ *@
     <!--Login Modal End-->
-    <script type="text/javascript" src="GDC-HomeJSnew.js"></script>
+    <script type="text/javascript" src="~/js/gdc-homejsnew.js"></script>
 </body>
 </html>

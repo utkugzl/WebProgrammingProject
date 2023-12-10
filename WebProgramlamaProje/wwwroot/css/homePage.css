@@ -1,28 +1,27 @@
-body{
+body {
 	background: url(homeBackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-#logo{
+#logo {
 	width: 40px;
-	height:40px;
+	height: 40px;
 	display: inline;
 	margin-bottom: 10px;
 	vertical-align: top;
 }
 
-.navbar-brand{
+.navbar-brand {
 	font-family: Paytone One;
-
 }
 
-a{
-    color:white;
+a {
+	color: white;
 }
 
-.tabshead{
+.tabshead {
 	font-weight: bold;
 	font-size: 1.5em;
 	color: white;
@@ -32,14 +31,14 @@ a{
 	color: white;
 }
 
-#second{
-	margin-top: 11%;
-    border: 1px solid;
-    box-shadow: 5px 5px 5px 3px #131313;
-    background-color: rgba(90,0,0,0.3);
+#second {
+	margin-top: 15%; /* Adjusted margin-top value */
+	border: 1px solid;
+	box-shadow: 5px 5px 5px 3px #131313;
+	background-color: rgba(90, 0, 0, 0.3);
 }
 
-.drop{
+.drop {
 	color: black;
 	width: 30%;
 	height: 40px;
@@ -49,7 +48,7 @@ a{
 	margin-left: 1.2%;
 }
 
-.drop2{
+.drop2 {
 	color: black;
 	width: 45%;
 	height: 40px;
@@ -58,11 +57,11 @@ a{
 	margin-left: 3.3%;
 }
 
-.drp{
+.drp {
 	margin-left: 44%;
 }
 
-.drop21{
+.drop21 {
 	color: black;
 	width: 40.5%;
 	height: 40px;
@@ -71,79 +70,79 @@ a{
 	margin-right: 3.3%;
 }
 
-.lab{
+.lab {
 	padding-left: 10px;
 	font-size: 1.5em;
 }
 
-.lab2{
+.lab2 {
 	padding-left: 3.3%;
 	font-size: 1.5em;
 }
 
-.container{
+.container {
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
-.btn-group-lg>.btn, .btn-lg {
+.btn-group-lg>.btn,
+.btn-lg {
 	padding: 8px 40px;
 }
 
-#content{
+#content {
 	text-align: center;
 	padding-top: 10%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-h1{
+h1 {
 	font-size: 4em;
 	font-family: Pacifico;
 	word-spacing: 15px;
 	color: white;
 }
 
-#usernameSignUp{
+#usernameSignUp {
 	margin-left: 9.9%;
 }
 
-#email{
+#email {
 	margin-left: 12.1%;
 }
 
-#passSignUp{
+#passSignUp {
 	margin-left: 10.1%;
 }
 
-#messagecheck1, #messagecheck2{
+#messagecheck1,
+#messagecheck2 {
 	color: red;
 }
 
-.messageCheck{
+.messageCheck {
 	color: red;
 }
 
-#flightsButton{
-	background-color: rgba(150,0,0,0.7);
+#flightsButton {
+	background-color: rgba(150, 0, 0, 0.7);
 	padding: 9.8px;
 	border: none;
-    width: 170px;
+	width: 170px;
 }
 
-#tickButton{
-	background-color: rgba(150,0,0,0.7);
+#tickButton {
+	background-color: rgba(150, 0, 0, 0.7);
 	padding: 9.8px;
 	border: none;
-    width: 170px;
-    margin-bottom: 5px;
-    margin-left: 42.5%;
+	width: 170px;
+	margin-bottom: 5px;
+	margin-left: 42.5%;
 }
 
-#fsButton{
-	background-color: rgba(150,0,0,0.7);
+#fsButton {
+	background-color: rgba(150, 0, 0, 0.7);
 	padding: 9.8px;
 	border: none;
-    width: 170px;
+	width: 170px;
 }

@@ -122,10 +122,12 @@ namespace WebProgramlamaProje.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<int>("ResID")
+                    b.Property<int>("FlightID")
                         .HasColumnType("int");
 
                     b.HasKey("BookingID");
+
+                    b.HasIndex("FlightID");
 
                     b.ToTable("FlightBooking");
                 });
@@ -210,6 +212,22 @@ namespace WebProgramlamaProje.Migrations
                         .IsRequired();
 
                     b.Navigation("Plane");
+                });
+
+            modelBuilder.Entity("WebProgramlamaProje.Models.FlightBooking", b =>
+                {
+                    b.HasOne("WebProgramlamaProje.Models.Flight", "Flight")
+                        .WithMany("FlightBooking")
+                        .HasForeignKey("FlightID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Flight");
+                });
+
+            modelBuilder.Entity("WebProgramlamaProje.Models.Flight", b =>
+                {
+                    b.Navigation("FlightBooking");
                 });
 
             modelBuilder.Entity("WebProgramlamaProje.Models.PlaneInfo", b =>

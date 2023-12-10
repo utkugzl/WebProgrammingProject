@@ -5,20 +5,8 @@
       "PackagePath": "staticwebassets\\WebProgramlamaProje.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\GDC-AboutCSS.css",
-      "PackagePath": "staticwebassets\\css\\GDC-AboutCSS.css"
-    },
-    {
-      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\GDC-HomeCSS.css",
-      "PackagePath": "staticwebassets\\css\\GDC-HomeCSS.css"
-    },
-    {
-      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\GDC-HomeCSSnew.css",
-      "PackagePath": "staticwebassets\\css\\GDC-HomeCSSnew.css"
-    },
-    {
-      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\GDC-HomeConnCSSn.css",
-      "PackagePath": "staticwebassets\\css\\GDC-HomeConnCSSn.css"
+      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\aboutPage.css",
+      "PackagePath": "staticwebassets\\css\\aboutPage.css"
     },
     {
       "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\admin.css",
@@ -37,12 +25,28 @@
       "PackagePath": "staticwebassets\\css\\home.jpg"
     },
     {
+      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\home2.css",
+      "PackagePath": "staticwebassets\\css\\home2.css"
+    },
+    {
+      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\home3.css",
+      "PackagePath": "staticwebassets\\css\\home3.css"
+    },
+    {
       "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\homeBackground.jpg",
       "PackagePath": "staticwebassets\\css\\homeBackground.jpg"
     },
     {
+      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\homePage.css",
+      "PackagePath": "staticwebassets\\css\\homePage.css"
+    },
+    {
       "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\js\\GDC-HomeJSnew.js",
+      "PackagePath": "staticwebassets\\js\\GDC-HomeJSnew.js"
     },
     {
       "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\LICENSE",
