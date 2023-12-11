@@ -10,14 +10,16 @@
 
 @if (searchedFlights != null && searchedFlights.Count > 0)
 {
-    <h1>Flight Search Results</h1>
+    <h1>
+        Uçuş Arama Sonuçları
+    </h1>
     <br />
     <table class="table">
         <thead>
             <tr>
                 <th>Nereden</th>
                 <th>Nereye</th>
-                <th>Tarih</th>
+                <th>Tarih</th>w
                 <th>Saat</th>
                 <th>Uçak Adı</th>
                 <th>Boş Koltuk</th>
@@ -44,9 +46,19 @@
                     <td>@flight.PlaneSeat</td>
                     <td>@flight.FlightTicketPrice</td>
                     <td>
-                        <a href="#" class="btn-reservation">
-                            Bilet rezervasyonu için giriş yapın
-                        </a>
+                        @if (Context.Session.GetString("UserId") is null)
+                        {
+                            <a href="@Url.Action("Login", "Login")" class="btn-reservation">
+                                Bilet rezervasyonu için giriş yapın
+                            </a>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("Login", "Login")" class="btn-reservation">
+                                Bilet Al
+                            </a>
+                        }
+
                     </td>
                 </tr>
             }

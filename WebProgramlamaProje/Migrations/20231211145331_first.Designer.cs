@@ -12,8 +12,8 @@ using WebProgramlamaProje.Models;
 namespace WebProgramlamaProje.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20231210141007_First")]
-    partial class First
+    [Migration("20231211145331_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,6 +32,10 @@ namespace WebProgramlamaProje.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AdminID"));
+
+                    b.Property<string>("AdminEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("AdminName")
                         .IsRequired()

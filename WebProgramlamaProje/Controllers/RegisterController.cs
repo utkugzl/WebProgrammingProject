@@ -62,16 +62,13 @@ namespace WebProgramlamaProje.Controllers
             {
                 _context.Add(passenger);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("LogIn");
+                return RedirectToAction("Index","Login");
             }
+            
             return View(passenger);
         }
 
-        public IActionResult LogIn()
-        {
-           // HttpContext.Request.Form[""]
-            return View();
-        }
+
 
         // GET: Register/Edit/5
         public async Task<IActionResult> Edit(int? id)

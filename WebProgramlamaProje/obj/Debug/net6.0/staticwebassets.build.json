@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1sZN5+DopyP4lyKrqEWPMkGJpUHKuZ3ZBKLpcrbAt0Y=",
+  "Hash": "WUCZSXys5UVUZCx3ZcQSXXj2c7O7YDk9XoQn0B6ZeGc=",
   "Source": "WebProgramlamaProje",
   "BasePath": "_content/WebProgramlamaProje",
   "Mode": "Default",
@@ -219,23 +219,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\js\\GDC-HomeJSnew.js",
-      "SourceId": "WebProgramlamaProje",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
-      "BasePath": "_content/WebProgramlamaProje",
-      "RelativePath": "js/GDC-HomeJSnew.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\GDC-HomeJSnew.js"
     },
     {
       "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

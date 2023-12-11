@@ -1,0 +1,79 @@
+﻿@model WebProgramlamaProje.Models.Passenger
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+<h1>Giriş Yap</h1>
+
+<hr />
+<div class="form-container">
+    <div class="row">
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Giriş Yap" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        color: #ffffff;
+    }
+
+    .row {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .form-control {
+        background-color: #495057;
+        color: #ffffff;
+        border-color: #495057;
+    }
+
+        .form-control:focus {
+            background-color: #495057;
+            color: #ffffff;
+            border-color: #ffffff;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+</style>

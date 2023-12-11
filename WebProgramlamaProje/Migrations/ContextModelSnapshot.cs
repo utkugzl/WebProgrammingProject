@@ -30,6 +30,10 @@ namespace WebProgramlamaProje.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AdminID"));
 
+                    b.Property<string>("AdminEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("AdminName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
