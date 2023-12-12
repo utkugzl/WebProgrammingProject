@@ -63,6 +63,19 @@ namespace WebProgramlamaProje.Controllers
             {
                 _context.Add(flight);
                 await _context.SaveChangesAsync();
+                for (int i = 1; i <= flight.PlaneSeat ; i++) // Örneğin 50 koltuk olsun
+                {
+                    var newSeat = new FlightSeat
+                    {
+                        SeatNumber = i,
+                        IsTaken = false,
+                        FlightID = flight.FlightID
+                    };
+
+                    _context.FlightSeats.Add(newSeat);
+                }
+                _context.SaveChanges();
+
                 return RedirectToAction(nameof(Index));
             }
             ViewData["PlaneID"] = new SelectList(_context.PlaneInfos, "PlaneID", "PlaneName", flight.PlaneID);

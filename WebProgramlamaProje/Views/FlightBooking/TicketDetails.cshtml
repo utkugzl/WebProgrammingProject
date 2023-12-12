@@ -1,0 +1,36 @@
+﻿@model WebProgramlamaProje.Models.FlightBooking
+
+<h2>Ticket Details</h2>
+
+<div>
+    <p>Customer Name: @Model.CustomerName</p>
+    <p>Customer Email: @Model.CustomerEmail</p>
+    <p>Customer Seats: @Model.CustomerSeats</p>
+    <p>Customer Phone Number: @Model.CustomerPhoneNumber</p>
+    <p>Customer TC: @Model.CustomerTC</p>
+
+    <h3>Flight Information</h3>
+    <p>Flight ID: @Model.FlightID</p>
+    @if (Model.Flight != null)
+    {
+        <p>From: @Model.Flight.FlightFrom</p>
+        <p>To: @Model.Flight.FlightTo</p>
+        <!-- Diğer uçuş bilgilerini görüntüleme, eğer varsa -->
+    }
+    else
+    {
+        <p>No Flight Information Available</p>
+    }
+
+    <h3>Ticket Information</h3>
+    @if (Model.Ticket != null)
+    {
+        <p>Ticket ID: @Model.Ticket.TicketID</p>
+        <!-- Diğer bilet bilgilerini görüntüleme, eğer varsa -->
+    }
+    else
+    {
+        <p>No Ticket Information Available</p>
+    }
+</div>
+

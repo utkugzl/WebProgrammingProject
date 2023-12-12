@@ -13,6 +13,11 @@ namespace WebProgramlamaProje.Models
         [Display(Name = "Kullanıcı Adı")]
         public string AdminName { get; set; }
 
+        [Required(ErrorMessage = "Lütfen e-posta adresinizi giriniz.")]
+        [Display(Name = "E-posta Adresi")]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Geçerli bir e-posta adresi giriniz.")]
+        public string AdminEmail { get; set; }
+
         [Required(ErrorMessage = "Lütfen şifrenizi giriniz.")]
         [Display(Name = "Şifre")]
         [DataType(DataType.Password)]

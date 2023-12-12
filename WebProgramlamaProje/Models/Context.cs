@@ -10,13 +10,13 @@ namespace WebProgramlamaProje.Models
         public DbSet<PlaneInfo> PlaneInfos { get; set; }
         public DbSet<FlightBooking> FlightBookings { get; set; }
         public DbSet<Flight> Flights { get; set; }
-        
+        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<FlightSeat> FlightSeats { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=PlaneSystem;Trusted_Connection=True;");
         }
-
-        
     }
 }

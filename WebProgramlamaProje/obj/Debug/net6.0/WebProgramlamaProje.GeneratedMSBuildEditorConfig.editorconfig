@@ -32,6 +32,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/FlightBooking/bookTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xib29rVGlja2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/FlightBooking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/FlightBooking/TicketDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xUaWNrZXREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Flights/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +68,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/PlaneInfo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbmVJbmZvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,6 +94,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/PlaneInfo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbmVJbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcTG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Error.cshtml]

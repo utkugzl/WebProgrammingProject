@@ -1,0 +1,145 @@
+﻿@{
+    var searchedFlights = ViewBag.searchedFlights as List<WebProgramlamaProje.Models.Flight>;
+}
+
+@{
+    ViewData["Title"] = "Flight Search Results";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+
+@if (searchedFlights != null && searchedFlights.Count > 0)
+{
+    <h1>
+        Uçuş Arama Sonuçları
+    </h1>
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nereden</th>
+                <th>Nereye</th>
+                <th>Tarih</th>w
+                <th>Saat</th>
+                <th>Uçak Adı</th>
+                <th>Boş Koltuk</th>
+                <th>Fiyat</th>
+                <th>Satın Al</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var flight in searchedFlights)
+            {
+                <tr>
+                    <td>@flight.FlightFrom</td>
+                    <td>@flight.FlightTo</td>
+                    <td>@flight.FlightDate.ToShortDateString()</td>
+                    <td>@flight.FlightTime</td>
+                    <td>@{
+                            int pi = int.Parse(flight.PlaneID.ToString());
+                            var dd = new WebProgramlamaProje.Models.Context();
+                            var planeName = dd.PlaneInfos.Where(p => p.PlaneID == pi).FirstOrDefault();
+                            @planeName.PlaneName
+                        }
+
+                    </td>
+                    <td>@flight.PlaneSeat</td>
+                    <td>@flight.FlightTicketPrice</td>
+                    <td>
+                        @if (Context.Session.GetString("UserId") is null)
+                        {
+                            <a href="@Url.Action("Login", "Login")" class="btn-reservation">
+                                Bilet rezervasyonu için giriş yapın
+                            </a>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("Index", "FlightBooking", new { flightId = flight.FlightID })" class="btn-reservation">
+                                Bilet Al
+                            </a>
+                        }
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <br />
+    <h1>
+        Seçilen kriterlere uygun uçuş bulunamadı.
+    </h1>
+    <br />
+    <br />
+    <br />
+}
+
+<style>
+    table.table {
+        color: #fff; /* Yazı rengi beyaz */
+        background-color: #343a40; /* Tablo arka plan rengi koyu gri tonu */
+        border: 1px solid #ddd; /* Tablo kenarlık rengi */
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        table.table thead th {
+            background-color: #212529; /* Tablo başlığı arka plan rengi daha koyu ton */
+            border: 1px solid #ddd; /* Tablo başlığı kenarlık rengi */
+            padding: 8px;
+            text-align: left;
+        }
+
+        table.table tbody tr {
+            background-color: #495057; /* Tablo satır arka plan rengi gri tonu */
+        }
+
+        table.table tbody tr td {
+            border: 1px solid #ddd; /* Tablo hücre kenarlık rengi */
+            padding: 8px;
+            text-align: left;
+        }
+
+        table.table tbody tr td:last-child {
+            text-align: center;
+        }
+
+        table.table tbody tr td:last-child a {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            color: #fff; 
+            background-color: green; /* Buton arka plan rengi mavi */
+            border-color: green; /* Buton kenarlık rengi mavi */
+            text-decoration: none;
+        }
+
+        table.table tbody tr td:last-child a:hover {
+            background-color: #0056b3; /* Buton hover durumunda arka plan rengi koyu mavi */
+            border-color: #0056b3; /* Buton hover durumunda kenarlık rengi koyu mavi */
+        }
+</style>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
