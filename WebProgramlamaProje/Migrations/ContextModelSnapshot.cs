@@ -100,11 +100,6 @@ namespace WebProgramlamaProje.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingID"));
 
-                    b.Property<string>("CustomerAddress")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
                     b.Property<string>("CustomerEmail")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -129,11 +124,40 @@ namespace WebProgramlamaProje.Migrations
                     b.Property<int>("FlightID")
                         .HasColumnType("int");
 
+                    b.Property<int>("TicketID")
+                        .HasColumnType("int");
+
                     b.HasKey("BookingID");
 
                     b.HasIndex("FlightID");
 
+                    b.HasIndex("TicketID");
+
                     b.ToTable("FlightBooking");
+                });
+
+            modelBuilder.Entity("WebProgramlamaProje.Models.FlightSeat", b =>
+                {
+                    b.Property<int>("SeatID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SeatID"));
+
+                    b.Property<int>("FlightID")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsTaken")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("SeatNumber")
+                        .HasColumnType("int");
+
+                    b.HasKey("SeatID");
+
+                    b.HasIndex("FlightID");
+
+                    b.ToTable("FlightSeats");
                 });
 
             modelBuilder.Entity("WebProgramlamaProje.Models.Passenger", b =>
@@ -207,6 +231,27 @@ namespace WebProgramlamaProje.Migrations
                     b.ToTable("PlaneInfos");
                 });
 
+            modelBuilder.Entity("WebProgramlamaProje.Models.Ticket", b =>
+                {
+                    b.Property<int>("TicketID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TicketID"));
+
+                    b.Property<int?>("FlightID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SeatNumber")
+                        .HasColumnType("int");
+
+                    b.HasKey("TicketID");
+
+                    b.HasIndex("FlightID");
+
+                    b.ToTable("Tickets");
+                });
+
             modelBuilder.Entity("WebProgramlamaProje.Models.Flight", b =>
                 {
                     b.HasOne("WebProgramlamaProje.Models.PlaneInfo", "Plane")
@@ -226,12 +271,40 @@ namespace WebProgramlamaProje.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("WebProgramlamaProje.Models.Ticket", "Ticket")
+                        .WithMany()
+                        .HasForeignKey("TicketID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Flight");
+
+                    b.Navigation("Ticket");
+                });
+
+            modelBuilder.Entity("WebProgramlamaProje.Models.FlightSeat", b =>
+                {
+                    b.HasOne("WebProgramlamaProje.Models.Flight", "Flight")
+                        .WithMany()
+                        .HasForeignKey("FlightID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Flight");
+                });
+
+            modelBuilder.Entity("WebProgramlamaProje.Models.Ticket", b =>
+                {
+                    b.HasOne("WebProgramlamaProje.Models.Flight", null)
+                        .WithMany("Tickets")
+                        .HasForeignKey("FlightID");
                 });
 
             modelBuilder.Entity("WebProgramlamaProje.Models.Flight", b =>
                 {
                     b.Navigation("FlightBooking");
+
+                    b.Navigation("Tickets");
                 });
 
             modelBuilder.Entity("WebProgramlamaProje.Models.PlaneInfo", b =>

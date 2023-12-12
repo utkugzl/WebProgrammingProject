@@ -1,0 +1,132 @@
+﻿@model WebProgramlamaProje.Models.FlightBooking
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+    Context context = new Context();
+    bool IsSeatTaken(int seatNumber)
+    {
+        // Örnek: var isTaken = dbContext.Seats.FirstOrDefault(s => s.SeatNumber == seatNumber)?.IsTaken;
+        // Bu örnekte her koltuk dolu olarak kabul ediliyor
+        var seat = context.FlightSeats.FirstOrDefault(s => s.SeatNumber == seatNumber);
+
+        if (seat != null)
+        {
+            return seat.IsTaken;
+        }
+        else
+        {
+            return true;
+        }
+
+    }
+}
+
+
+
+<h1>FlightBooking</h1>
+<hr />
+<div class="form-container" >
+    <div class="row">
+        <form asp-action="bookTicket">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerEmail" class="control-label"></label>
+                <input asp-for="CustomerEmail" class="form-control" />
+                <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerSeats" class="control-label"></label>
+                <select asp-for="CustomerSeats" class="form-control">
+                    @for (int i = 1; i <= ViewBag.capacity; i++)
+                    {
+                        // Koltuğun durumu "IsTaken" alanı ile kontrol ediliyor
+                        bool isTaken = IsSeatTaken(i);
+
+                        // Eğer koltuk dolu değilse, seçenek eklenecek
+                        if (!isTaken)
+                        {
+                            <option value="@i">@i</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="CustomerSeats" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerPhoneNumber" class="control-label"></label>
+                <input asp-for="CustomerPhoneNumber" class="form-control" />
+                <span asp-validation-for="CustomerPhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerTC" class="control-label"></label>
+                <input asp-for="CustomerTC" class="form-control" />
+                <span asp-validation-for="CustomerTC" class="text-danger"></span>
+            </div>
+           @*  <div class="form-group">
+                <label asp-for="FlightID"  class="control-label"></label>
+                <input asp-for="FlightID" type="hidden" value="@ViewBag.flightid" class="form-control" />
+            </div> *@
+@*               <div class="form-group">
+                <label asp-for="FlightID" class="control-label"></label>
+                <select asp-for="FlightID" class ="form-control" asp-items="ViewBag.FlightID"></select>
+            </div>  *@
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        color: #ffffff;
+    }
+
+    .row {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .form-control {
+        background-color: #495057;
+        color: #ffffff;
+        border-color: #495057;
+    }
+
+        .form-control:focus {
+            background-color: #495057;
+            color: #ffffff;
+            border-color: #ffffff;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+</style>
+

@@ -43,6 +43,8 @@ namespace WebProgramlamaProje.Models
         [Display(Name = "Uçak tipi")]
         public string FlightPlaneType { get; set; }   
         
-        public virtual ICollection<FlightBooking>? FlightBooking { get; set; }
+        public  ICollection<FlightBooking>? FlightBooking { get; set; }
+
+        public ICollection<Ticket>? Tickets { get; set; }
     }
 }

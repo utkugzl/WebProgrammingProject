@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\homePage.css"
     },
     {
+      "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\seat.png",
+      "PackagePath": "staticwebassets\\css\\seat.png"
+    },
+    {
       "Id": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

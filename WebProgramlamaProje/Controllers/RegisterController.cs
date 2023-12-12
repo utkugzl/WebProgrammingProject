@@ -62,7 +62,7 @@ namespace WebProgramlamaProje.Controllers
             {
                 _context.Add(passenger);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index","Login");
+                return RedirectToAction("Login","Login");
             }
             
             return View(passenger);

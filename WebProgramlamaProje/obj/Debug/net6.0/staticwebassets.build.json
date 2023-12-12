@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WUCZSXys5UVUZCx3ZcQSXXj2c7O7YDk9XoQn0B6ZeGc=",
+  "Hash": "op8nULCNTXNoiPXtZ6vNtliBB00wJrZnNJ5YLPkPECo=",
   "Source": "WebProgramlamaProje",
   "BasePath": "_content/WebProgramlamaProje",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\homePage.css"
+    },
+    {
+      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\seat.png",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "css/seat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\seat.png"
     },
     {
       "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\favicon.ico",

@@ -88,18 +88,58 @@ namespace WebProgramlamaProje.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "FlightSeats",
+                columns: table => new
+                {
+                    SeatID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    SeatNumber = table.Column<int>(type: "int", nullable: false),
+                    IsTaken = table.Column<bool>(type: "bit", nullable: false),
+                    FlightID = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_FlightSeats", x => x.SeatID);
+                    table.ForeignKey(
+                        name: "FK_FlightSeats_Flights_FlightID",
+                        column: x => x.FlightID,
+                        principalTable: "Flights",
+                        principalColumn: "FlightID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Tickets",
+                columns: table => new
+                {
+                    TicketID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    SeatNumber = table.Column<int>(type: "int", nullable: false),
+                    FlightID = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Tickets", x => x.TicketID);
+                    table.ForeignKey(
+                        name: "FK_Tickets_Flights_FlightID",
+                        column: x => x.FlightID,
+                        principalTable: "Flights",
+                        principalColumn: "FlightID");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "FlightBooking",
                 columns: table => new
                 {
                     BookingID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CustomerName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    CustomerAddress = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     CustomerEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CustomerSeats = table.Column<int>(type: "int", nullable: false),
                     CustomerPhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CustomerTC = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    FlightID = table.Column<int>(type: "int", nullable: false)
+                    FlightID = table.Column<int>(type: "int", nullable: false),
+                    TicketID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -110,6 +150,12 @@ namespace WebProgramlamaProje.Migrations
                         principalTable: "Flights",
                         principalColumn: "FlightID",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_FlightBooking_Tickets_TicketID",
+                        column: x => x.TicketID,
+                        principalTable: "Tickets",
+                        principalColumn: "TicketID",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -118,9 +164,24 @@ namespace WebProgramlamaProje.Migrations
                 column: "FlightID");
 
             migrationBuilder.CreateIndex(
+                name: "IX_FlightBooking_TicketID",
+                table: "FlightBooking",
+                column: "TicketID");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Flights_PlaneID",
                 table: "Flights",
                 column: "PlaneID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_FlightSeats_FlightID",
+                table: "FlightSeats",
+                column: "FlightID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Tickets_FlightID",
+                table: "Tickets",
+                column: "FlightID");
         }
 
         /// <inheritdoc />
@@ -133,7 +194,13 @@ namespace WebProgramlamaProje.Migrations
                 name: "FlightBooking");
 
             migrationBuilder.DropTable(
+                name: "FlightSeats");
+
+            migrationBuilder.DropTable(
                 name: "Passenger");
+
+            migrationBuilder.DropTable(
+                name: "Tickets");
 
             migrationBuilder.DropTable(
                 name: "Flights");
