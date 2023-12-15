@@ -11427,19 +11427,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utku\\.nuget\\packages\\": {}
+    "C:\\Users\\efeer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\WebProgramlamaProje.csproj",
+      "projectUniqueName": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\WebProgramlamaProje.csproj",
       "projectName": "WebProgramlamaProje",
-      "projectPath": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\WebProgramlamaProje.csproj",
-      "packagesPath": "C:\\Users\\Utku\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\obj\\",
+      "projectPath": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\WebProgramlamaProje.csproj",
+      "packagesPath": "C:\\Users\\efeer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Utku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\efeer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -22,6 +22,7 @@ namespace WebProgramlamaProje.Controllers
         
         public IActionResult Search(string cityFrom, string cityTo, DateTime flightDate)
         {
+           
             var control = _context.Flights.Where(f => f.FlightFrom.Equals(cityFrom) && f.FlightTo.Equals(cityTo) && f.FlightDate.Equals(flightDate)).ToList();
             ViewBag.searchedFlights = control;
             return View();

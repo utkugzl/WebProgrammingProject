@@ -12,8 +12,8 @@ using WebProgramlamaProje.Models;
 namespace WebProgramlamaProje.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20231212163834_first")]
-    partial class first
+    [Migration("20231214141458_second")]
+    partial class second
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -124,17 +124,15 @@ namespace WebProgramlamaProje.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<int>("FlightID")
+                    b.Property<int>("FlightId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TicketID")
+                    b.Property<int>("TicketNumber")
                         .HasColumnType("int");
 
                     b.HasKey("BookingID");
 
-                    b.HasIndex("FlightID");
-
-                    b.HasIndex("TicketID");
+                    b.HasIndex("FlightId");
 
                     b.ToTable("FlightBooking");
                 });
@@ -270,19 +268,11 @@ namespace WebProgramlamaProje.Migrations
                 {
                     b.HasOne("WebProgramlamaProje.Models.Flight", "Flight")
                         .WithMany("FlightBooking")
-                        .HasForeignKey("FlightID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("WebProgramlamaProje.Models.Ticket", "Ticket")
-                        .WithMany()
-                        .HasForeignKey("TicketID")
+                        .HasForeignKey("FlightId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Flight");
-
-                    b.Navigation("Ticket");
                 });
 
             modelBuilder.Entity("WebProgramlamaProje.Models.FlightSeat", b =>

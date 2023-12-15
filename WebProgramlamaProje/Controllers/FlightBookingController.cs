@@ -12,7 +12,7 @@ namespace WebProgramlamaProje.Controllers
 
         public IActionResult Index(int flightId)
         {
-
+            
             var flight = context.Flights.Where(f => f.FlightID == flightId).FirstOrDefault();
             if (flight is null)
             {
@@ -53,7 +53,6 @@ namespace WebProgramlamaProje.Controllers
         {
             var latestBooking = context.FlightBookings
            .Include(b => b.Flight)
-           .Include(b => b.Ticket)
            .OrderByDescending(b => b.BookingID)
            .FirstOrDefault();
 

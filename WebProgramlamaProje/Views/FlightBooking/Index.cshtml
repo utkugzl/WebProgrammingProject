@@ -20,6 +20,21 @@
         }
 
     }
+
+    int  TicketNumberGenerator()
+    {
+        Random rand = new Random();
+
+        int sayi;
+
+        do
+        {
+            sayi = rand.Next(1000000, 9999999);
+
+        } while (context.FlightBookings.Any(t => t.TicketNumber == sayi));
+
+        return sayi;
+    }
 }
 
 
@@ -67,11 +82,14 @@
                 <input asp-for="CustomerTC" class="form-control" />
                 <span asp-validation-for="CustomerTC" class="text-danger"></span>
             </div>
-           @*  <div class="form-group">
-                <label asp-for="FlightID"  class="control-label"></label>
-                <input asp-for="FlightID" type="hidden" value="@ViewBag.flightid" class="form-control" />
-            </div> *@
-@*               <div class="form-group">
+             <div class="form-group">
+                <input asp-for="FlightId" type="hidden" value="@ViewBag.flightid" class="form-control" />
+            </div> 
+            <div class="form-group">
+                <input asp-for="TicketNumber" type="hidden" value="@TicketNumberGenerator()" class="form-control" />
+            </div>
+
+            @*               <div class="form-group">
                 <label asp-for="FlightID" class="control-label"></label>
                 <select asp-for="FlightID" class ="form-control" asp-items="ViewBag.FlightID"></select>
             </div>  *@
