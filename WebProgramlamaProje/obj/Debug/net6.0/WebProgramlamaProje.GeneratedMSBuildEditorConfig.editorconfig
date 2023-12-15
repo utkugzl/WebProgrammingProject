@@ -9,145 +9,145 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebProgramlamaProje
 build_property.RootNamespace = WebProgramlamaProje
-build_property.ProjectDir = C:\Users\Utku\Desktop\WebProje\WebProgramlamaProje\WebProgramlamaProje\
+build_property.ProjectDir = C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Utku\Desktop\WebProje\WebProgramlamaProje\WebProgramlamaProje
+build_property.MSBuildProjectDirectory = C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/About/Index.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Admin/AdminLogin.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Admin/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Admin/Dashboard.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Admin/Index.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/FlightBooking/bookTicket.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/FlightBooking/bookTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xib29rVGlja2V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/FlightBooking/Index.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/FlightBooking/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/FlightBooking/TicketDetails.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/FlightBooking/TicketDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xUaWNrZXREZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Flights/Create.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Flights/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Flights/Delete.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Flights/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Flights/Details.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Flights/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Flights/Edit.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Flights/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Flights/Index.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Flights/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Home/Index.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Home/Search.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Login/Login.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/PlaneInfo/Create.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/PlaneInfo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbmVJbmZvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/PlaneInfo/Delete.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/PlaneInfo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbmVJbmZvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/PlaneInfo/Details.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/PlaneInfo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbmVJbmZvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/PlaneInfo/Edit.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/PlaneInfo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbmVJbmZvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/PlaneInfo/Index.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/PlaneInfo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbmVJbmZvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Create.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Register/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Delete.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Register/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Details.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Register/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Edit.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Register/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/Index.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Register/LogIn.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Register/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcTG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Error.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/_AboutPageLayout.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Shared/_AboutPageLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BYm91dFBhZ2VMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/_AdminPageLayout.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Shared/_AdminPageLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblBhZ2VMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/_HomePageLayout.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Shared/_HomePageLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lUGFnZUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/_ViewImports.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/_ViewStart.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Utku/Desktop/WebProje/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/_Layout.cshtml]
+[C:/Users/efeer/Desktop/WebProje/WebProgrammingProject/WebProgramlamaProje/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hn14abygqx

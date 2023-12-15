@@ -32,7 +32,7 @@
                 @Html.DisplayNameFor(model => model.Flight) 
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Ticket)
+                @Html.DisplayNameFor(model => model.TicketNumber)
             </th>
             <th></th>
         </tr>
@@ -59,7 +59,7 @@
                 @Html.DisplayFor(modelItem => item.Flight.FlightFrom) 
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Ticket.TicketID)
+                @Html.DisplayFor(modelItem => item.TicketNumber)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.BookingID">Edit</a> |

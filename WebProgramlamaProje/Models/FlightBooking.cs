@@ -37,13 +37,16 @@ namespace WebProgramlamaProje.Models
         public string CustomerTC { get; set; }
 
 
-        public int FlightID { get; set; }
+        [ForeignKey("FlightID")]
+        public int FlightId { get; set; }
 
         public Flight? Flight { get; set; }
 
-        public int TicketID { get; set; }
+        public int TicketNumber { get; set; }
 
-        public Ticket? Ticket { get; set; }
+        //[ForeignKey("TicketID")]
+        //public int TicketId { get; set; }
+        //public Ticket? Ticket { get; set; }
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "op8nULCNTXNoiPXtZ6vNtliBB00wJrZnNJ5YLPkPECo=",
+  "Hash": "Kzzd3/gmL2/rzkgu/kK/7VjXN2u0c6cLYfDx2XzbzIg=",
   "Source": "WebProgramlamaProje",
   "BasePath": "_content/WebProgramlamaProje",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebProgramlamaProje\\wwwroot",
       "Source": "WebProgramlamaProje",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebProgramlamaProje.styles.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebProgramlamaProje.styles.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "WebProgramlamaProje.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebProgramlamaProje.styles.css"
+      "OriginalItemSpec": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebProgramlamaProje.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebProgramlamaProje.bundle.scp.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebProgramlamaProje.bundle.scp.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "WebProgramlamaProje.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebProgramlamaProje.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebProgramlamaProje.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\aboutPage.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\aboutPage.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/aboutPage.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\aboutPage.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\admin.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\admin.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/admin.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\adminFoto.jpg",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminFoto.jpg",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/adminFoto.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\adminFoto.jpg"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\adminPlaneDetail.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminPlaneDetail.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/adminPlaneDetail.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\adminPlaneDetail.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\home.jpg",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\home.jpg",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/home.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.jpg"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\home2.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\home2.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/home2.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home2.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\home3.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\home3.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/home3.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home3.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\homeBackground.jpg",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\homeBackground.jpg",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/homeBackground.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homeBackground.jpg"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\homePage.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\homePage.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/homePage.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homePage.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\css\\seat.png",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\seat.png",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "css/seat.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\seat.png"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\favicon.ico",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Utku\\Desktop\\WebProje\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
       "BasePath": "_content/WebProgramlamaProje",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

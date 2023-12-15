@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebProgramlamaProje.Models;
 
@@ -11,9 +12,11 @@ using WebProgramlamaProje.Models;
 namespace WebProgramlamaProje.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20231213102301_first")]
+    partial class first
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -121,15 +124,17 @@ namespace WebProgramlamaProje.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<int>("FlightId")
+                    b.Property<int>("FlightID")
                         .HasColumnType("int");
 
-                    b.Property<int>("TicketNumber")
+                    b.Property<int>("TicketID")
                         .HasColumnType("int");
 
                     b.HasKey("BookingID");
 
-                    b.HasIndex("FlightId");
+                    b.HasIndex("FlightID");
+
+                    b.HasIndex("TicketID");
 
                     b.ToTable("FlightBooking");
                 });
@@ -265,11 +270,19 @@ namespace WebProgramlamaProje.Migrations
                 {
                     b.HasOne("WebProgramlamaProje.Models.Flight", "Flight")
                         .WithMany("FlightBooking")
-                        .HasForeignKey("FlightId")
+                        .HasForeignKey("FlightID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebProgramlamaProje.Models.Ticket", "Ticket")
+                        .WithMany()
+                        .HasForeignKey("TicketID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Flight");
+
+                    b.Navigation("Ticket");
                 });
 
             modelBuilder.Entity("WebProgramlamaProje.Models.FlightSeat", b =>

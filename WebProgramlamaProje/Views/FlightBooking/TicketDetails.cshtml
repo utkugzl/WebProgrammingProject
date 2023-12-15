@@ -10,7 +10,7 @@
     <p>Customer TC: @Model.CustomerTC</p>
 
     <h3>Flight Information</h3>
-    <p>Flight ID: @Model.FlightID</p>
+    <p>Flight ID: @Model.FlightId</p>
     @if (Model.Flight != null)
     {
         <p>From: @Model.Flight.FlightFrom</p>
@@ -23,14 +23,9 @@
     }
 
     <h3>Ticket Information</h3>
-    @if (Model.Ticket != null)
-    {
-        <p>Ticket ID: @Model.Ticket.TicketID</p>
+    
+        <p>Ticket Number: @Model.TicketNumber</p>
         <!-- Diğer bilet bilgilerini görüntüleme, eğer varsa -->
-    }
-    else
-    {
-        <p>No Ticket Information Available</p>
-    }
+  
 </div>
 
