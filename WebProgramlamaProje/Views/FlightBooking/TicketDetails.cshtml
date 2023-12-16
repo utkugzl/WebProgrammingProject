@@ -1,31 +1,119 @@
 ﻿@model WebProgramlamaProje.Models.FlightBooking
 
-<h2>Ticket Details</h2>
+@{
+    ViewData["Title"] = "TicketDetails";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
 
-<div>
-    <p>Customer Name: @Model.CustomerName</p>
-    <p>Customer Email: @Model.CustomerEmail</p>
-    <p>Customer Seats: @Model.CustomerSeats</p>
-    <p>Customer Phone Number: @Model.CustomerPhoneNumber</p>
-    <p>Customer TC: @Model.CustomerTC</p>
+<h1>Ticket Details</h1>
 
-    <h3>Flight Information</h3>
-    <p>Flight ID: @Model.FlightId</p>
-    @if (Model.Flight != null)
-    {
-        <p>From: @Model.Flight.FlightFrom</p>
-        <p>To: @Model.Flight.FlightTo</p>
-        <!-- Diğer uçuş bilgilerini görüntüleme, eğer varsa -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flight Ticket Information</title>
+</head>
+<body>
+    <div class="ticket-container">
+        <table>
+            <tr>
+                <th colspan="2">Yolcu Bilgileri</th>
+            </tr>
+            <tr>
+                <td>Adı :</td>
+                <td>@Model.CustomerName</td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td>@Model.CustomerEmail</td>
+            </tr>
+            <tr>
+                <td>Koltuk :</td>
+                <td>@Model.CustomerSeats</td>
+            </tr>
+            <tr>
+                <td>Telefon Numarası :</td>
+                <td>@Model.CustomerPhoneNumber</td>
+            </tr>
+            <tr>
+                <td>TC :</td>
+                <td>@Model.CustomerTC</td>
+            </tr>
+            <tr>
+                <th colspan="2">Uçuş Bilgileri</th>
+            </tr>
+            <tr>
+                <td>Nereden :</td>
+                <td>@if (Model.Flight != null)
+                    {
+                        @Model.Flight.FlightFrom
+                    }</td>
+            </tr>
+            <tr>
+                <td>Nereye :</td>
+                <td>@if (Model.Flight != null)
+                    {
+                        @Model.Flight.FlightTo
+                    }</td>
+            </tr>
+            <tr>
+                <th colspan="2">Bilet Bilgileri</th>
+            </tr>
+            <tr>
+                <td>Bilet Numarası:</td>
+                <td>@Model.TicketNumber</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+<style>
+    h1 {
+        text-align: center;
     }
-    else
-    {
-        <p>No Flight Information Available</p>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #222;
+        color: #fff;
+        margin: 0;
+        padding: 0;
     }
 
-    <h3>Ticket Information</h3>
-    
-        <p>Ticket Number: @Model.TicketNumber</p>
-        <!-- Diğer bilet bilgilerini görüntüleme, eğer varsa -->
-  
-</div>
+    .ticket-container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    th, td {
+        border: 1px solid #555;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #444;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #555;
+    }
+
+    tr:hover {
+        background-color: #777;
+    }
+</style>
+
+
 

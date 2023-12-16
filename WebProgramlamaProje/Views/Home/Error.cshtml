@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Error";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+<h1 class="text-danger">An error occurred while processing your request.</h1>
+<h2>@ViewBag.ErrorMessage</h2>
+
+<div class="action-buttons">
+    <a href="@Url.Action("Index", "Home")" class="action-buttons" style="background-color:black ; color:red">AnaSayfaya Dön</a>
+</div>
