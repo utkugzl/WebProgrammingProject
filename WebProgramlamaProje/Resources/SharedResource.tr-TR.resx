@@ -120,6 +120,36 @@
   <data name="about" xml:space="preserve">
     <value>Hakkımızda</value>
   </data>
+  <data name="aboutDescription" xml:space="preserve">
+    <value>SAU Airways'a hoş geldiniz, Türkiye'nin öncü iç hat havayolu olan SAU Airways, size gökyüzündeki en güzel deneyimlerden birini sunar. Yüksek hizmet ve güvenilirlik standartlarımız, etkili operasyonlarımız ve yenilik odaklı yaklaşımımız, bizi Türkiye'nin en sevilen iç hat havayollarından biri haline getirmiştir.
+SAU Airways olarak, kurumsal sorumluluk konusunda Türkiye'nin en iyi havayolu olma çabalarımızın yanı sıra bütünlük yaklaşımını benimsemekteyiz.
+Tüm çabalarımız, değer katma odaklıdır: insanlarımıza, topluluklarımıza ve ülkemize. Ajandamız, iş ve operasyonlarımızın tüm yönlerini kapsayan uyumlu bir girişimler programına sahip olmamızı sağlamak amacıyla SAU Aviation Group seviyesinde koordine edilmektedir.
+Tüm girişimlerimiz, SAU’nun 'Birlikte' çerçevesi içinde gerçekleştirilmektedir.</value>
+  </data>
+  <data name="aboutTitle1" xml:space="preserve">
+    <value>Birlikte Büyüme</value>
+  </data>
+  <data name="aboutTitle2" xml:space="preserve">
+    <value>Birlikte Daha Yeşil</value>
+  </data>
+  <data name="aboutTitle3" xml:space="preserve">
+    <value>Birlikte Çalışma</value>
+  </data>
+  <data name="aboutTitle4" xml:space="preserve">
+    <value>Sorumluluğumuz</value>
+  </data>
+  <data name="aboutTitleDes1" xml:space="preserve">
+    <value>Türkiye'de üretim yapma vizyonunu destekleme.</value>
+  </data>
+  <data name="aboutTitleDes2" xml:space="preserve">
+    <value>Çevresel etkimizi en aza indirme taahhüdü.</value>
+  </data>
+  <data name="aboutTitleDes3" xml:space="preserve">
+    <value>Çeşitli çalışanlarımızın gelişimi ve refahı.</value>
+  </data>
+  <data name="aboutTitleDes4" xml:space="preserve">
+    <value>Birlikte' çerçevesi ve girişimler hakkında daha fazla detay, 2010'dan bu yana düzenli olarak yayımlanan raporlarda bulunmaktadır.</value>
+  </data>
   <data name="date" xml:space="preserve">
     <value>Tarih</value>
   </data>

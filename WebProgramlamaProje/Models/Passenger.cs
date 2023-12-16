@@ -12,7 +12,7 @@ namespace WebProgramlamaProje.Models
         public int PassengerID { get; set; }
 
         [Required(ErrorMessage = "Lütfen adınızı giriniz.")]
-        [Display(Name = "Ad")]
+        [Display(Name = "First Name - Ad")]
         public string FirstName { get; set; }
 
         [Required(ErrorMessage = "Lütfen soyadınızı giriniz.")]

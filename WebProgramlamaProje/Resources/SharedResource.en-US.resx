@@ -120,6 +120,36 @@
   <data name="about" xml:space="preserve">
     <value>About Us</value>
   </data>
+  <data name="aboutDescription" xml:space="preserve">
+    <value>Welcome to SAU Airways, Turkey's leading domestic airline, SAU Airways offers you one of the most beautiful experiences in the sky. Our high service and reliability standards, efficient operations and innovation-oriented approach have made us one of Turkey's most loved domestic airlines.
+As SAU Airways, we adopt an integrity approach in addition to our efforts to be Turkey's best airline in terms of corporate responsibility.
+All our efforts are focused on adding value: to our people, our communities and our country. Our agenda is coordinated at the SAU Aviation Group level to ensure we have a cohesive program of initiatives that cover all aspects of our business and operations.
+All our initiatives are carried out within SAU's 'Together' framework.</value>
+  </data>
+  <data name="aboutTitle1" xml:space="preserve">
+    <value>Growing Together</value>
+  </data>
+  <data name="aboutTitle2" xml:space="preserve">
+    <value>Greening Together</value>
+  </data>
+  <data name="aboutTitle3" xml:space="preserve">
+    <value>Working Together</value>
+  </data>
+  <data name="aboutTitle4" xml:space="preserve">
+    <value>Our Responsibility</value>
+  </data>
+  <data name="aboutTitleDes1" xml:space="preserve">
+    <value>Supporting the vision of manufacturing in Turkey.</value>
+  </data>
+  <data name="aboutTitleDes2" xml:space="preserve">
+    <value>Commitment to minimizing our environmental impact.</value>
+  </data>
+  <data name="aboutTitleDes3" xml:space="preserve">
+    <value>The development and well-being of our diverse employees.</value>
+  </data>
+  <data name="aboutTitleDes4" xml:space="preserve">
+    <value>More details about the 'Together' framework and initiatives have been regularly reported in reports published since 2010.</value>
+  </data>
   <data name="date" xml:space="preserve">
     <value>Date</value>
   </data>
@@ -156,7 +186,7 @@
   <data name="to" xml:space="preserve">
     <value>To</value>
   </data>
-  <data name="Welcome" xml:space="preserve">
+  <data name="wlcome" xml:space="preserve">
     <value>wlcm</value>
   </data>
 </root>

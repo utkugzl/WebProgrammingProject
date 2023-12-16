@@ -70,28 +70,27 @@
             @RenderBody();
         </div>
 
-        <h1>Hakkımızda</h1>
+        <h1>@_localization.GetKey("about").Value</h1>
         <div class="container" id="cell">
-            <p>SAU Airways'a hoş geldiniz, Türkiye'nin öncü iç hat havayolu olan SAU Airways, size gökyüzündeki en güzel deneyimlerden birini sunar. Yüksek hizmet ve güvenilirlik standartlarımız, etkili operasyonlarımız ve yenilik odaklı yaklaşımımız, bizi Türkiye'nin en sevilen iç hat havayollarından biri haline getirmiştir.</p>
-            <p>SAU Airways olarak, kurumsal sorumluluk konusunda Türkiye'nin en iyi havayolu olma çabalarımızın yanı sıra bütünlük yaklaşımını benimsemekteyiz.</p>
-            <p>Tüm çabalarımız, değer katma odaklıdır: insanlarımıza, topluluklarımıza ve ülkemize. Ajandamız, iş ve operasyonlarımızın tüm yönlerini kapsayan uyumlu bir girişimler programına sahip olmamızı sağlamak amacıyla SAU Aviation Group seviyesinde koordine edilmektedir.</p>
-            <p>Tüm girişimlerimiz, SAU’nun 'Birlikte' çerçevesi içinde gerçekleştirilmektedir.</p>
+            <p>
+                @_localization.GetKey("aboutDescription").Value
+            </p>
             <br>
             <p>
-                <h3>Birlikte Büyüme</h3>
-                Türkiye'de üretim yapma vizyonunu destekleme.
+                <h3>@_localization.GetKey("aboutTitle1").Value</h3>
+                 @_localization.GetKey("aboutTitleDes1").Value
             </p>
             <p>
-                <h3>Birlikte Daha Yeşil</h3>
-                Çevresel etkimizi en aza indirme taahhüdü.
+                <h3>@_localization.GetKey("aboutTitle2").Value</h3>
+                    @_localization.GetKey("aboutTitleDes2").Value
             </p>
             <p>
-                <h3>Birlikte Çalışma</h3>
-                Çeşitli çalışanlarımızın gelişimi ve refahı.
+                <h3>@_localization.GetKey("aboutTitle3").Value</h3>
+                    @_localization.GetKey("aboutTitleDes3").Value
             </p>
             <p>
-                <h3>Sorumluluğumuz</h3>
-                'Birlikte' çerçevesi ve girişimler hakkında daha fazla detay, 2010'dan bu yana düzenli olarak yayımlanan raporlarda bulunmaktadır.
+                <h3>@_localization.GetKey("aboutTitle4").Value</h3>
+                    @_localization.GetKey("aboutTitleDes4").Value
             </p>
         </div>
 
