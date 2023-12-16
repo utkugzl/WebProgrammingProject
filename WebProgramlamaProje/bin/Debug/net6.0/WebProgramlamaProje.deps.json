@@ -15,6 +15,14 @@
         },
         "runtime": {
           "WebProgramlamaProje.dll": {}
+        },
+        "resources": {
+          "en-US/WebProgramlamaProje.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/WebProgramlamaProje.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       },
       "Azure.Core/1.25.0": {

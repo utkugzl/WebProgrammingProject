@@ -44,9 +44,6 @@ namespace WebProgramlamaProje.Models
 
         public int TicketNumber { get; set; }
 
-        //[ForeignKey("TicketID")]
-        //public int TicketId { get; set; }
-        //public Ticket? Ticket { get; set; }
 
     }
 }

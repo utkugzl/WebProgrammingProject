@@ -1,11 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using WebProgramlamaProje.Services;
 
 namespace WebProgramlamaProje.Models
 {
     [Table("Passenger")]
     public class Passenger
     {
+        
         [Key]
         public int PassengerID { get; set; }
 

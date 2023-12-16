@@ -30,20 +30,37 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="@Url.Action("Index", "Home")"><strong>Ana Sayfa</strong></a></li>
-                        <li><a href="@Url.Action("Index", "About")"><strong>Hakkımızda</strong></a></li>
+                        <li class="active"><a href="@Url.Action("Index", "Home")"><strong>@_localization.GetKey("home").Value</strong></a></li>
+                        <li><a href="@Url.Action("Index", "About")"><strong>@_localization.GetKey("about").Value</strong></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                @_localization.GetKey("language").Value <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@Url.Action("ChangeLanguage", "Home", new { culture = "en-US" })" class="dropdown-item">
+                                        <i class="flag-icon flag-icon-gb"></i> English
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("ChangeLanguage", "Home", new { culture = "tr-TR" })" class="dropdown-item">
+                                        <i class="flag-icon flag-icon-tr"></i> Türkçe
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         @if (Context.Session.GetString("UserId") is null)
                         {
-                            <li><a href="@Url.Action("Create", "Register")"><strong>Kayıt Ol </strong><i class="fas fa-user-plus"></i></a></li>
-                            <li><a href="@Url.Action("Login", "Login")"><strong>Giriş Yap </strong><i class="fas fa-user"></i></a></li>
+                            <li><a href="@Url.Action("Create", "Register")"><strong>@_localization.GetKey("signup").Value </strong><i class="fas fa-user-plus"></i></a></li>
+                            <li><a href="@Url.Action("Login", "Login")"><strong>@_localization.GetKey("signin").Value </strong><i class="fas fa-user"></i></a></li>
                         }
                         else
                         {
-                            <li style="color :white ; margin-top: 20px" ><strong>@Context.Session.GetString("UserName")</strong></li>
+                            <li style="color :white ; margin-top: 20px"><strong>@Context.Session.GetString("UserName")</strong></li>
                         }
                     </ul>
                 </div>

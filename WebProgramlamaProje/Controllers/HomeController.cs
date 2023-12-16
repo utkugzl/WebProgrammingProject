@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using WebProgramlamaProje.Models;
+using WebProgramlamaProje.Services;
 
 namespace WebProgramlamaProje.Controllers
 {
@@ -8,14 +10,27 @@ namespace WebProgramlamaProje.Controllers
     {
         private readonly Context _context;
         private Context context = new Context();
-
-        public HomeController()
+        private readonly ILogger<HomeController> _logger;
+        private  LanguageServices _localization;
+        public HomeController(ILogger<HomeController> logger , LanguageServices localization)
         {
             _context = context;
+            _localization = localization;
+            _logger = logger;
         }
 
+        public IActionResult changeLanguage(string culture)
+        {
+            Response.Cookies.Append(CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)), new CookieOptions()
+                {
+                    Expires = DateTimeOffset.UtcNow.AddYears(1)
+                });
+              return Redirect(Request.Headers["Referer"].ToString());
+        }
         public IActionResult Index()
         {
+            var currentCulture = Thread.CurrentThread.CurrentCulture.Name;
             ViewBag.dcity = _context.Flights.Select(f=> f.FlightFrom).Distinct().ToList();
             ViewBag.acity = _context.Flights.Select(f=> f.FlightTo).Distinct().ToList();
             return View();
