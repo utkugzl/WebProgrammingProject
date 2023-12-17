@@ -22,7 +22,16 @@ namespace WebProgramlamaProje.Controllers
         // GET: PlaneInfo
         public async Task<IActionResult> Index()
         {
-              return _context.PlaneInfos != null ? 
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
+            return _context.PlaneInfos != null ? 
                           View(await _context.PlaneInfos.ToListAsync()) :
                           Problem("Entity set 'Context.PlaneInfos'  is null.");
         }
@@ -30,6 +39,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: PlaneInfo/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || _context.PlaneInfos == null)
             {
                 return NotFound();
@@ -48,6 +66,14 @@ namespace WebProgramlamaProje.Controllers
         // GET: PlaneInfo/Create
         public IActionResult Create()
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             return View();
         }
 
@@ -58,6 +84,15 @@ namespace WebProgramlamaProje.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PlaneID,PlaneName,SeatCapacity,Price")] PlaneInfo planeInfo)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(planeInfo);
@@ -70,6 +105,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: PlaneInfo/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || _context.PlaneInfos == null)
             {
                 return NotFound();
@@ -90,6 +134,15 @@ namespace WebProgramlamaProje.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("PlaneID,PlaneName,SeatCapacity,Price")] PlaneInfo planeInfo)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id != planeInfo.PlaneID)
             {
                 return NotFound();
@@ -104,6 +157,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: PlaneInfo/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || _context.PlaneInfos == null)
             {
                 return NotFound();
@@ -124,6 +186,15 @@ namespace WebProgramlamaProje.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (_context.PlaneInfos == null)
             {
                 return Problem("Entity set 'Context.PlaneInfos'  is null.");
@@ -140,7 +211,7 @@ namespace WebProgramlamaProje.Controllers
 
         private bool PlaneInfoExists(int id)
         {
-          return (_context.PlaneInfos?.Any(e => e.PlaneID == id)).GetValueOrDefault();
+            return (_context.PlaneInfos?.Any(e => e.PlaneID == id)).GetValueOrDefault();
         }
     }
 }

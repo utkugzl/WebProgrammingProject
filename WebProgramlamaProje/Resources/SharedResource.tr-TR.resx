@@ -168,6 +168,9 @@ Tüm girişimlerimiz, SAU’nun 'Birlikte' çerçevesi içinde gerçekleştirilm
   <data name="language" xml:space="preserve">
     <value>Dil</value>
   </data>
+  <data name="logout" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
   <data name="myTickets" xml:space="preserve">
     <value>Biletlerim</value>
   </data>

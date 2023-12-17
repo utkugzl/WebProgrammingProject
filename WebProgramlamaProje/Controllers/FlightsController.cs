@@ -22,6 +22,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: Flights
         public async Task<IActionResult> Index()
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             var context = _context.Flights.Include(f => f.Plane);
             return View(await context.ToListAsync());
         }
@@ -29,6 +38,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: Flights/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || _context.Flights == null)
             {
                 return NotFound();
@@ -48,6 +66,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: Flights/Create
         public IActionResult Create()
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             ViewData["PlaneID"] = new SelectList(_context.PlaneInfos, "PlaneID", "PlaneName");
             return View();
         }
@@ -59,6 +86,15 @@ namespace WebProgramlamaProje.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("FlightID,FlightFrom,FlightTo,FlightDate,FlightTime,PlaneID,PlaneSeat,FlightTicketPrice,FlightPlaneType")] Flight flight)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(flight);
@@ -85,6 +121,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: Flights/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || _context.Flights == null)
             {
                 return NotFound();
@@ -106,6 +151,15 @@ namespace WebProgramlamaProje.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("FlightID,FlightFrom,FlightTo,FlightDate,FlightTime,PlaneID,PlaneSeat,FlightTicketPrice,FlightPlaneType")] Flight flight)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id != flight.FlightID)
             {
                 return NotFound();
@@ -138,6 +192,15 @@ namespace WebProgramlamaProje.Controllers
         // GET: Flights/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || _context.Flights == null)
             {
                 return NotFound();
@@ -159,6 +222,15 @@ namespace WebProgramlamaProje.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else if (HttpContext.Session.GetString("AdminId") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (_context.Flights == null)
             {
                 return Problem("Entity set 'Context.Flights'  is null.");

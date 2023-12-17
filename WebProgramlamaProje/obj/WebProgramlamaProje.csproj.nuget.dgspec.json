@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNet.Identity.Owin": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -57,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.14, )"
+            },
+            "Microsoft.Owin.Host.SystemWeb.tr": {
+              "target": "Package",
+              "version": "[4.1.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

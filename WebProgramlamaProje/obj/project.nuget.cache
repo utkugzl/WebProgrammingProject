@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "D0eLcumjrNEToBHKdfDlKOxyP2XpuWZUD8nutEsm9b7/LFFKB33s3JI0NqvDtDxuDEcMJKeXSRLE1ZW1Kn6rnA==",
+  "dgSpecHash": "gn5RINIJlbZDBZQi68fM0xNwa7+qhPXTQv3YglnX44fCe5U4psCuUK3Xr85Vvob1qo4tzyc8ULboAy6MqG/7lQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\WebProgramlamaProje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\efeer\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -59,6 +60,9 @@
     "C:\\Users\\efeer\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.aspnet.identity.owin\\2.2.3\\microsoft.aspnet.identity.owin.2.2.3.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
@@ -109,6 +113,12 @@
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.net.stringtools\\17.3.2\\microsoft.net.stringtools.17.3.2.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.owin\\4.1.1\\microsoft.owin.4.1.1.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.owin.host.systemweb\\4.1.1\\microsoft.owin.host.systemweb.4.1.1.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.owin.host.systemweb.tr\\4.1.1\\microsoft.owin.host.systemweb.tr.4.1.1.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.owin.security\\3.0.1\\microsoft.owin.security.3.0.1.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.owin.security.cookies\\3.0.1\\microsoft.owin.security.cookies.3.0.1.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\microsoft.owin.security.oauth\\3.0.1\\microsoft.owin.security.oauth.3.0.1.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.16\\microsoft.visualstudio.web.codegeneration.6.0.16.nupkg.sha512",
@@ -132,6 +142,7 @@
     "C:\\Users\\efeer\\.nuget\\packages\\nuget.projectmodel\\6.6.1\\nuget.projectmodel.6.6.1.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\nuget.protocol\\6.6.1\\nuget.protocol.6.6.1.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\nuget.versioning\\6.6.1\\nuget.versioning.6.6.1.nupkg.sha512",
+    "C:\\Users\\efeer\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -236,5 +247,116 @@
     "C:\\Users\\efeer\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\efeer\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'EntityFramework 6.1.0' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.AspNet.Identity.Core 2.2.3' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.AspNet.Identity.EntityFramework 2.2.3' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.AspNet.Identity.Owin 2.2.3' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.AspNet.Identity.Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin 4.1.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Host.SystemWeb 4.1.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Host.SystemWeb",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Host.SystemWeb.tr 4.1.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Host.SystemWeb.tr",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Security 3.0.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Security",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Security.Cookies 3.0.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Security.Cookies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Security.OAuth 3.0.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Security.OAuth",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Owin 1.0.0' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

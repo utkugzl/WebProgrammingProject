@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Globalization;
 using System.Reflection;
+using WebProgramlamaProje.Models;
 using WebProgramlamaProje.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -39,7 +41,6 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 builder.Services.AddControllersWithViews()
     .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
     .AddDataAnnotationsLocalization();
-
 
 
 builder.Services.AddSession(options =>

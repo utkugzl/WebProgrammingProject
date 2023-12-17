@@ -1,12 +1,20 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebProgramlamaProje.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebProgramlamaProje.bundle.scp.css"
+    },
+    {
       "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\aboutPage.css",
       "PackagePath": "staticwebassets\\css\\aboutPage.css"
     },
     {
       "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\admin.css",
       "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminBackground.jpg",
+      "PackagePath": "staticwebassets\\css\\adminBackground.jpg"
     },
     {
       "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminFoto.jpg",

@@ -168,6 +168,9 @@ All our initiatives are carried out within SAU's 'Together' framework.</value>
   <data name="language" xml:space="preserve">
     <value>Language</value>
   </data>
+  <data name="logout" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
   <data name="myTickets" xml:space="preserve">
     <value>My Tickets</value>
   </data>

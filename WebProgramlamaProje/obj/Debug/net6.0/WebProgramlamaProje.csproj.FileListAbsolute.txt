@@ -593,3 +593,17 @@ C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\obj\De
 C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\obj\Debug\net6.0\tr-TR\WebProgramlamaProje.resources.dll
 C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\obj\Debug\net6.0\WebProgramlamaProje.Resources.SharedResource.en-US.resources
 C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\obj\Debug\net6.0\WebProgramlamaProje.Resources.SharedResource.tr-TR.resources
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.Owin.Security.Cookies.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Microsoft.Owin.Security.OAuth.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\Owin.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\bin\Debug\net6.0\tr\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\efeer\Desktop\WebProje\WebProgrammingProject\WebProgramlamaProje\obj\Debug\net6.0\scopedcss\projectbundle\WebProgramlamaProje.bundle.scp.css

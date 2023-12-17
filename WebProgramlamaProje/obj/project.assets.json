@@ -46,6 +46,25 @@
           }
         }
       },
+      "EntityFramework/6.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -677,6 +696,55 @@
       },
       "MessagePackAnalyzer/2.1.152": {
         "type": "package"
+      },
+      "Microsoft.AspNet.Identity.Core/2.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.EntityFramework/2.2.3": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.1.0",
+          "Microsoft.AspNet.Identity.Core": "2.2.3"
+        },
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.EntityFramework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.EntityFramework.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.Owin/2.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Identity.Core": "2.2.3",
+          "Microsoft.Owin.Security": "3.0.1",
+          "Microsoft.Owin.Security.Cookies": "3.0.1",
+          "Microsoft.Owin.Security.OAuth": "3.0.1"
+        },
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {
+            "related": ".xml"
+          }
+        }
       },
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
         "type": "package",
@@ -1820,6 +1888,104 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Owin/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.1.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb.tr/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin.Host.SystemWeb": "[4.1.1]"
+        },
+        "resource": {
+          "lib/net45/tr/Microsoft.Owin.Host.SystemWeb.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Microsoft.Owin.Security.Cookies/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.1",
+          "Microsoft.Owin.Security": "3.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.Cookies.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.Cookies.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Security.OAuth/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "3.0.1",
+          "Microsoft.Owin.Security": "3.0.1",
+          "Newtonsoft.Json": "6.0.4",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "Microsoft.SqlServer.Server/1.0.0": {
         "type": "package",
         "compile": {
@@ -2193,6 +2359,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -4112,6 +4287,36 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+    "EntityFramework/6.1.0": {
+      "sha512": "u/M0OEfqxTUsL5BwzD66eBGm278/ozqdLK3JvMO6QwUxxc+z7ZUkTYm4suDhWRqzkc6mOhvXDQY5dZUwbldxyQ==",
+      "type": "package",
+      "path": "entityframework/6.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/App.config.transform",
+        "content/Web.config.transform",
+        "entityframework.6.1.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -4902,6 +5107,45 @@
         "messagepackanalyzer.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.AspNet.Identity.Core/2.2.3": {
+      "sha512": "Mv5FpoaxspE8hlWLE4r1IdZtovg/OyFgVRhxQbx47J4sqdLImN1hnM1lnwCj+/wLmqtqFk/RYMoZ5GAcwm/00g==",
+      "type": "package",
+      "path": "microsoft.aspnet.identity.core/2.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.Identity.Core.dll",
+        "lib/net45/Microsoft.AspNet.Identity.Core.xml",
+        "microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+        "microsoft.aspnet.identity.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Identity.EntityFramework/2.2.3": {
+      "sha512": "dt4XZChjw3a6jE66Yd6LkF9omspxi0A9lJpwBZz8Wl1sabOS6dlLP1OOTVuUjtPaoAshjoIzvS6DFRQdPyq55g==",
+      "type": "package",
+      "path": "microsoft.aspnet.identity.entityframework/2.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.Identity.EntityFramework.dll",
+        "lib/net45/Microsoft.AspNet.Identity.EntityFramework.xml",
+        "microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512",
+        "microsoft.aspnet.identity.entityframework.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Identity.Owin/2.2.3": {
+      "sha512": "gNr7dQGE23hAtWmSZVmKPJ+DKBw/obh68Ub7M5cCUiRNAqg6+6Jb3T7en4Fuw8R/8H5/sIsecrfT3MbK2/FzEg==",
+      "type": "package",
+      "path": "microsoft.aspnet.identity.owin/2.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.Identity.Owin.dll",
+        "lib/net45/Microsoft.AspNet.Identity.Owin.xml",
+        "microsoft.aspnet.identity.owin.2.2.3.nupkg.sha512",
+        "microsoft.aspnet.identity.owin.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
@@ -6339,6 +6583,84 @@
         "runtime.json"
       ]
     },
+    "Microsoft.Owin/4.1.1": {
+      "sha512": "KtjkRz4COQRqrwOBMf+XKW1ZsdiFMqipbmM0khhNJIx6U9VRprbwRGdSq1++PHlZrIwHMmwRHC0nILNSHGkcaA==",
+      "type": "package",
+      "path": "microsoft.owin/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.4.1.1.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.SystemWeb/4.1.1": {
+      "sha512": "KUBoEE5wrbj5T4YTTtFXR08WchKlYM/IJA1KyqPwSuuYJE7oBr2blZ44MdFtE3GtAsru3yVX2yAuIE0d0fJm3A==",
+      "type": "package",
+      "path": "microsoft.owin.host.systemweb/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.dll",
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.xml",
+        "microsoft.owin.host.systemweb.4.1.1.nupkg.sha512",
+        "microsoft.owin.host.systemweb.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.SystemWeb.tr/4.1.1": {
+      "sha512": "0ILdeaHH+1GPNZAXAeGDqM71sNaIwxvdKzORs0KLlOQvxK70hUvaKASfAGjiLqkhii55+sGLEaXpnCZPGk0JEw==",
+      "type": "package",
+      "path": "microsoft.owin.host.systemweb.tr/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/tr/Microsoft.Owin.Host.SystemWeb.resources.dll",
+        "lib/net45/tr/Microsoft.Owin.Host.SystemWeb.xml",
+        "microsoft.owin.host.systemweb.tr.4.1.1.nupkg.sha512",
+        "microsoft.owin.host.systemweb.tr.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security/3.0.1": {
+      "sha512": "LPoUxaTKzmjs97wDCTtBIoRwp30Jkq9UFnoj+EfMFJv+XxjcvHE/D573LRomA568WhvXoI2cUiwhZFvqfbLMVg==",
+      "type": "package",
+      "path": "microsoft.owin.security/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.XML",
+        "lib/net45/Microsoft.Owin.Security.dll",
+        "microsoft.owin.security.3.0.1.nupkg.sha512",
+        "microsoft.owin.security.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security.Cookies/3.0.1": {
+      "sha512": "l2GRNvO4oyxfpmWtfUYvN3fA4jWduE84UCNqWTj6yhYDSE76wI+W022qTTEMr0VoCDiJ0GGYdvAjQm3xbSsB9Q==",
+      "type": "package",
+      "path": "microsoft.owin.security.cookies/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.Cookies.dll",
+        "lib/net45/Microsoft.Owin.Security.Cookies.xml",
+        "microsoft.owin.security.cookies.3.0.1.nupkg.sha512",
+        "microsoft.owin.security.cookies.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security.OAuth/3.0.1": {
+      "sha512": "wttlhNSijhsrF7iwxYzxhTr8AYxXI6qoiw3b6dhVhqXOYCDp8OQ5yhHFtWlst+65l7VHduXassspZ974rtLMaw==",
+      "type": "package",
+      "path": "microsoft.owin.security.oauth/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.OAuth.XML",
+        "lib/net45/Microsoft.Owin.Security.OAuth.dll",
+        "microsoft.owin.security.oauth.3.0.1.nupkg.sha512",
+        "microsoft.owin.security.oauth.nuspec"
+      ]
+    },
     "Microsoft.SqlServer.Server/1.0.0": {
       "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "type": "package",
@@ -7190,6 +7512,18 @@
         "lib/netstandard2.0/NuGet.Versioning.dll",
         "nuget.versioning.6.6.1.nupkg.sha512",
         "nuget.versioning.nuspec"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -11420,9 +11754,12 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.AspNet.Identity.EntityFramework >= 2.2.3",
+      "Microsoft.AspNet.Identity.Owin >= 2.2.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.23",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
+      "Microsoft.Owin.Host.SystemWeb.tr >= 4.1.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16"
     ]
   },
@@ -11470,6 +11807,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNet.Identity.EntityFramework": {
+            "target": "Package",
+            "version": "[2.2.3, )"
+          },
+          "Microsoft.AspNet.Identity.Owin": {
+            "target": "Package",
+            "version": "[2.2.3, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.14, )"
@@ -11483,6 +11828,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.14, )"
+          },
+          "Microsoft.Owin.Host.SystemWeb.tr": {
+            "target": "Package",
+            "version": "[4.1.1, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -11511,5 +11860,117 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'EntityFramework 6.1.0' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.AspNet.Identity.Core 2.2.3' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.AspNet.Identity.EntityFramework 2.2.3' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.AspNet.Identity.Owin 2.2.3' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.AspNet.Identity.Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin 4.1.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Host.SystemWeb 4.1.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Host.SystemWeb",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Host.SystemWeb.tr 4.1.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Host.SystemWeb.tr",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Security 3.0.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Security",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Security.Cookies 3.0.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Security.Cookies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Owin.Security.OAuth 3.0.1' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Owin.Security.OAuth",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Owin 1.0.0' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

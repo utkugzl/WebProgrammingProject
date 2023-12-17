@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZfC3M44HKRfeNp+EfUd+RcG0dlPiO0zdJB1DR1Upt+s=",
+  "Hash": "qihfpmO+hJqxyckoxG0DOgs/II3/L2gqVsIzh/O7UfU=",
   "Source": "WebProgramlamaProje",
   "BasePath": "_content/WebProgramlamaProje",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebProgramlamaProje.styles.css",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "WebProgramlamaProje.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebProgramlamaProje.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebProgramlamaProje.bundle.scp.css",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "WebProgramlamaProje.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebProgramlamaProje.bundle.scp.css"
+    },
     {
       "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\aboutPage.css",
       "SourceId": "WebProgramlamaProje",
@@ -49,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
+    {
+      "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminBackground.jpg",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "css/adminBackground.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminBackground.jpg"
     },
     {
       "Identity": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminFoto.jpg",

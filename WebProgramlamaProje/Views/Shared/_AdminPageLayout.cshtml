@@ -8,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="~/css/admin.css" rel="stylesheet" />
+
 </head>
 <body>
     <div class="btn">
@@ -16,7 +17,7 @@
     <nav class="sidebar">
         <div class="text">
             <i class="fa fa-plane"></i>
-            FLIGHT
+            SAU Airways
         </div>
         <ul>
             <li class="active"><a href="#"> <i class="fas fa-qrcode"></i> Dashboard</a></li>
@@ -42,12 +43,24 @@
                     <li><a href="@Url.Action("Index", "Flights")">Flight Details</a></li>
                 </ul>
             </li>
-            <li><a href="#"><i class="fa fa-users"></i> Passengers</a></li>
+            <li><a href="@Url.Action("ALogout", "Login")"><i class="fa fa-power-off" aria-hidden="true"></i> Log Out</a></li>
         </ul>
     </nav>
-    <main role="main" class="pb-3">
+   
+    <main role="main" class="pb-3" >
         @RenderBody()
     </main>
+    <div class="content" >
+        <div class="header">
+            Welcome to Admin Panel 
+        </div>
+        <div class="header">
+            @Context.Session.GetString("AdminName") 
+        </div>
+        <div class="header">
+             @Context.Session.GetString("AdminMail")
+        </div>
+    </div>
     <script>
         $('.btn').click(function () {
             $(this).toggleClass("click");

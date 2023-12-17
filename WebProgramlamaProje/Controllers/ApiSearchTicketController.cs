@@ -11,14 +11,6 @@ namespace WebProgramlamaProje.Controllers
     {
         private Context context = new Context();
 
-        // GET: api/<ApiSearchTicketController>
-        //[HttpGet]
-        //public IEnumerable<FlightBooking> Get()
-        //{
-        //    var ticket = context.FlightBookings.ToList();
-
-        //    return ticket;
-        //}
 
         // GET api/<ApiSearchTicketController>/5
         [HttpGet("{ticketNo}")]

@@ -12,7 +12,7 @@ namespace WebProgramlamaProje.Controllers
 
         public IActionResult Index(int flightId)
         {
-            
+         
             var flight = context.Flights.Where(f => f.FlightID == flightId).FirstOrDefault();
             if (flight is null)
             {
