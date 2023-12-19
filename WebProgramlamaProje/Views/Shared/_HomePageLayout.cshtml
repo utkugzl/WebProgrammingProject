@@ -32,6 +32,11 @@
                 <ul class="nav navbar-nav">
                     <li ><a href="@Url.Action("Index", "Home")"><strong>@_localization.GetKey("home").Value</strong></a></li>
                     <li><a href="@Url.Action("Index", "About")"><strong>@_localization.GetKey("about").Value</strong></a></li>
+                    @if (Context.Session.GetString("UserId") is not null)
+                    {
+                        <li><a href="@Url.Action("Index", "MyTickets")"><strong>Biletlerim</strong></a></li>
+                    }
+                    
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             @_localization.GetKey("language").Value <span class="caret"></span>

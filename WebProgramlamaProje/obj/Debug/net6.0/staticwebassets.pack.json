@@ -13,14 +13,6 @@
       "PackagePath": "staticwebassets\\css\\admin.css"
     },
     {
-      "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminBackground.jpg",
-      "PackagePath": "staticwebassets\\css\\adminBackground.jpg"
-    },
-    {
-      "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminFoto.jpg",
-      "PackagePath": "staticwebassets\\css\\adminFoto.jpg"
-    },
-    {
       "Id": "C:\\Users\\efeer\\Desktop\\WebProje\\WebProgrammingProject\\WebProgramlamaProje\\wwwroot\\css\\adminPlaneDetail.css",
       "PackagePath": "staticwebassets\\css\\adminPlaneDetail.css"
     },
