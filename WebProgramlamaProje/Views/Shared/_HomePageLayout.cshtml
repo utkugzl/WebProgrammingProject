@@ -34,7 +34,7 @@
                     <li><a href="@Url.Action("Index", "About")"><strong>@_localization.GetKey("about").Value</strong></a></li>
                     @if (Context.Session.GetString("UserId") is not null)
                     {
-                        <li><a href="@Url.Action("Index", "MyTickets")"><strong>Biletlerim</strong></a></li>
+                        <li><a href="@Url.Action("Index", "MyTickets")"><strong>@_localization.GetKey("myTickets").Value</strong></a></li>
                     }
                     
                     <li class="dropdown">

@@ -1,72 +1,122 @@
-﻿@model IEnumerable<WebProgramlamaProje.Models.FlightBooking>
-
+﻿
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_HomePageLayout.cshtml";
 }
 
-<h1>Index</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flight Ticket Information</title>
+</head>
+<body>
+    <div class="ticket-container">
+        @foreach(var item in ViewBag.Tickets)
+        {
+        <table>
+            <tr>
+                <th colspan="2">Yolcu Bilgileri</th>
+            </tr>
+            <tr>
+                <td>Adı :</td>
+                <td>@item.CustomerName</td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                    <td>@item.CustomerEmail</td>
+            </tr>
+            <tr>
+                <td>Koltuk :</td>
+                    <td>@item.CustomerSeats</td>
+            </tr>
+            <tr>
+                <td>Telefon Numarası :</td>
+                    <td>@item.CustomerPhoneNumber</td>
+            </tr>
+            <tr>
+                <td>TC :</td>
+                    <td>@item.CustomerTC</td>
+            </tr>
+            <tr>
+                <th colspan="2">Uçuş Bilgileri</th>
+            </tr>
+            <tr>
+                <td>Nereden :</td>
+                <td>
+                        @if (@item.Flight != null)
+                    {
+                            @item.Flight.FlightFrom
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CustomerName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CustomerEmail)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CustomerSeats)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CustomerPhoneNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CustomerTC)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Flight)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TicketNumber)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CustomerName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CustomerEmail)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CustomerSeats)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CustomerPhoneNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CustomerTC)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Flight.FlightFrom)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TicketNumber)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.BookingID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BookingID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.BookingID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td>Nereye :</td>
+                <td>
+                        @if (@item.Flight != null)
+                    {
+                            @item.Flight.FlightTo
+                    }
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Bilet Bilgileri</th>
+            </tr>
+            <tr>
+                <td>Bilet Numarası:</td>
+                    <td>@item.TicketNumber</td>
+            </tr>
+                <br />
+        </table>
+        }
+    </div>
+</body>
+
+
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #222;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ticket-container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    th, td {
+        border: 1px solid #555;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #444;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #555;
+    }
+
+    tr:hover {
+        background-color: #777;
+    }
+</style>
